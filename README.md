@@ -21,7 +21,7 @@ DisenBooth can also generate images that contain the identity-irrelevant informa
 ### Customization with identity-irrelevant information
 <img src="assets/custom.png"/>
 
-With the identity-irrelevant information, we can also combine the identity-irrelevant information and other subjects to generate new images, which results in text-driven text inpainting.
+With the identity-irrelevant information, we can also combine the identity-irrelevant information and other subjects to generate new images, which results in text-driven image inpainting.
 
 ### Customization when an image contain several subjects
 <img src="assets/multi.png"/>
