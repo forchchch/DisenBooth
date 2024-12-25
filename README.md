@@ -52,7 +52,7 @@ where `INSTANCE_DIR` is the path to the input image folder, `OUT_DIR` is the pat
 ## Inference
 After finetuning, we provide a inference jupyter notebook for readers to easily reproduce the results.
 
-Note that we give released version is based on diffusers 0.23.1, newer than the version 0.13.1 we use in the paper. Some results may have little differences from the paper. 
+Note that we give released version is based on diffusers 0.23.1, newer than the version 0.13.1 we use in the paper. Some results may have little differences from the paper. Additionally, when training different subjects, different training steps should be chosen, e.g., dogs and cats are easy to fit and therefore fewer steps(about 1000) are needed, other subjects such as vases need about 2000 steps.
 
 ## Citation
 If you find our work useful, please kindly cite our work:
